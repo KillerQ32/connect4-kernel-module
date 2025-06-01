@@ -1,0 +1,1 @@
+cmd_/usr/src/project3-QBallardUMBC/KernelGame/Module.symvers := sed 's/ko$$/o/' /usr/src/project3-QBallardUMBC/KernelGame/modules.order | scripts/mod/modpost -m    -o /usr/src/project3-QBallardUMBC/KernelGame/Module.symvers -e -i Module.symvers   -T -
